@@ -1,3 +1,9 @@
 # To prevent search engines from seeing the site altogether, uncomment the next two lines:
 # User-Agent: *
 # Disallow: /
+
+
+
+
+heroku config:set DATABASE_URI="mongodb+srv://StarkPrince:M14t85u2m1nt93S@cluster0.9znqa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+heroku config:set DATABASE_NAME="sushil-fish-cart"
