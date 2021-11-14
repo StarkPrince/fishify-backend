@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stock-events",
+      "handler": "stock-event.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stock-events/count",
+      "handler": "stock-event.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stock-events/:id",
+      "handler": "stock-event.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stock-events",
+      "handler": "stock-event.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stock-events/:id",
+      "handler": "stock-event.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stock-events/:id",
+      "handler": "stock-event.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
