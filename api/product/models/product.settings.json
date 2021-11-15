@@ -38,26 +38,11 @@
       "type": "uid",
       "targetField": "title"
     },
-    "categories": {
-      "collection": "category",
-      "via": "products"
-    },
-    "Custom_field": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.custom-field"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "draft",
-        "published"
-      ],
-      "default": "published",
-      "required": true
-    },
     "Bestseller": {
       "type": "boolean"
+    },
+    "Stock": {
+      "type": "decimal"
     }
   }
 }

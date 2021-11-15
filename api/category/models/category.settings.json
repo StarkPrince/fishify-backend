@@ -2,24 +2,21 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "Comment",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
-    },
-    "products": {
-      "via": "categories",
-      "collection": "product",
-      "dominant": true
+    "Comments": {
+      "type": "richtext"
     }
   }
 }
