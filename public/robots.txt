@@ -5,3 +5,5 @@
 
 
 
+heroku config:set DATABASE_URI="mongodb+srv://PrinceRaj:Prince@123@cluster0.kxcwx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+heroku config:set DATABASE_NAME="sushil-fish-cart"
